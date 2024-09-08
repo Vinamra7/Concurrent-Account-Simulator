@@ -82,7 +82,7 @@ public class AccountWithConditionUsers {
             lock.lock();
             try {
                 while (balance < amount){
-                    System.out.println("Insufficient Balance will removing: " + amount);
+                    System.out.println("Insufficient Balance while removing: " + amount);
                     condition.await();
                 }
                 balance -= amount;

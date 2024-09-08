@@ -56,7 +56,7 @@ The program will output the add and remove operations, along with the current ba
 Added:   5		Current balance: 5
 Removed: 3		Current balance: 2
 Added:   7		Current balance: 9
-Insufficient Balance will removing: 10
+Insufficient Balance while removing: 10
 Added:   6		Current balance: 15
 Removed: 10		Current balance: 5
 ```
